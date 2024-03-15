@@ -22,5 +22,5 @@
 #Debug
 #rm -rf feeds/luci/applications/luci-app-mosdns && rm -rf feeds/packages/net/mosdns
 #chmod -R 755 files
-#rm -rf feeds/packages/lang/golang
-#git clone https://github.com/kenzok8/golang feeds/packages/lang/golang
+rm -rf feeds/packages/lang/golang
+git clone https://github.com/kenzok8/golang feeds/packages/lang/golang
