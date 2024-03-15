@@ -19,6 +19,18 @@
 # Modify hostname
 #sed -i 's/OpenWrt/P3TERX-Router/g' package/base-files/files/bin/config_generate
 
+#Add Openclash
+mkdir package/modify
+mkdir package/modify/openclash
+cd package/modify/openclash
+git init
+git remote add origin https://github.com/vernesong/OpenClash.git
+git config core.sparsecheckout true
+echo "luci-app-openclash" >> .git/info/sparse-checkout
+git pull --depth 1 origin master
+git branch --set-upstream-to=origin/master master
+cd ../../..
+
 #Debug
 rm -rf feeds/luci/applications/luci-app-mosdns && rm -rf feeds/packages/net/mosdns
 chmod -R 755 files
