@@ -5,7 +5,7 @@ src-git helloworld https://github.com/fw876/helloworld.git
 src-git passwall_packages https://github.com/xiaorouji/openwrt-passwall-packages.git;main
 src-git passwall https://github.com/xiaorouji/openwrt-passwall.git
 src-git passwall2 https://github.com/xiaorouji/openwrt-passwall2.git
-src-git openclash https://github.com/vernesong/OpenClash.git
+#src-git openclash https://github.com/vernesong/OpenClash.git
 src-git packages https://github.com/coolsnowwolf/packages
 src-git luci https://github.com/coolsnowwolf/luci
 src-git routing https://github.com/coolsnowwolf/routing
