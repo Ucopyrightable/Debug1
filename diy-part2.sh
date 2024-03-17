@@ -20,7 +20,7 @@
 #sed -i 's/OpenWrt/P3TERX-Router/g' package/base-files/files/bin/config_generate
 
 #Debug
-rm -rf feeds/luci/applications/luci-app-mosdns && rm -rf feeds/packages/net/mosdns
+#rm -rf feeds/luci/applications/luci-app-mosdns && rm -rf feeds/packages/net/mosdns
 #chmod -R 755 files
 rm -rf feeds/packages/lang/golang
 git clone https://github.com/kenzok8/golang feeds/packages/lang/golang
