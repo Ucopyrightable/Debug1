@@ -27,5 +27,5 @@
 #git config core.sparsecheckout true
 #echo "luci-app-openclash" >> .git/info/sparse-checkout
 #git pull origin master
-3git branch --set-upstream-to=origin/master master
+#git branch --set-upstream-to=origin/master master
 #cd ../..
