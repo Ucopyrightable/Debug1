@@ -21,17 +21,17 @@
 
 #Add Openclash&passwall&passwall2
 mkdir package/modify
-mkdir package/modify/openclash
-cd package/modify/openclash
-git init
-git remote add origin https://github.com/vernesong/OpenClash.git
-git config core.sparsecheckout true
-echo "luci-app-openclash" >> .git/info/sparse-checkout
-git pull --depth 1 origin master
-git branch --set-upstream-to=origin/master master
-cd ../../..
+#mkdir package/modify/openclash
+#cd package/modify/openclash
+#git init
+#git remote add origin https://github.com/vernesong/OpenClash.git
+#git config core.sparsecheckout true
+#echo "luci-app-openclash" >> .git/info/sparse-checkout
+#git pull --depth 1 origin master
+#git branch --set-upstream-to=origin/master master
+#cd ../../..
 cd package/modify
 git clone --depth=1 --single-branch https://github.com/xiaorouji/openwrt-passwall-packages.git
 git clone --depth=1 --single-branch https://github.com/xiaorouji/openwrt-passwall.git
-git clone --depth=1 --single-branch https://github.com/xiaorouji/openwrt-passwall2.git
+#git clone --depth=1 --single-branch https://github.com/xiaorouji/openwrt-passwall2.git
 cd ../..
